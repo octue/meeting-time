@@ -1,0 +1,18 @@
+{
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "semi": false,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "react",
+    "<THIRD_PARTY_MODULES>",
+    "^assets/(.*)$",
+    "^(hocs|hooks|query|state|theme|tests|utils)(.*)$",
+    "^(@material-ui|@mui)/(.*)$",
+    "^(components|containers|feedback|forms|pages|views)/(.*)$",
+    "^[./]",
+    "^[constants.js]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

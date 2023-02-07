@@ -1,2 +1,3 @@
-# meeting-time
-A page allowing people to arrange a good time for recurring meetings.
+# Meeting Time
+
+Find the best time to have a recurring meeting
